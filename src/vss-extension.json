@@ -2,8 +2,9 @@
     "manifestVersion": 1,
     "id": "NupkgWrenchExtension",
     "name": "NupkgWrench",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "publisher": "dschuermans",
+    "public": true,
     "targets": [
         {
             "id": "Microsoft.VisualStudio.Services"
@@ -14,8 +15,15 @@
         "Build and release"
     ],
     "links": {
-        "support": { "uri": "https://github.com/dschuermans/NupgkWrenchExtension/issues" }
+        "support": { "uri": "https://github.com/dschuermans/NupgkWrenchExtension/issues" },
+        "repository": { "uri": "https://github.com/dschuermans/NupgkWrenchExtension" }
     },
+    "tags": [
+        "nuget",
+        "nuget-powertool",
+        "nupkgwrench",
+        "versioning"
+    ],
     "repository": {
         "type": "git",
         "uri": "https://github.com/dschuermans/NupgkWrenchExtension"
