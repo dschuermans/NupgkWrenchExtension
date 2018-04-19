@@ -1,6 +1,6 @@
 [CmdletBinding()]
 param(
-    [string]$NupkgWrench,
+    [string]$NupkgWrench = $null,
     [string]$Command,
     [string]$CommandArguments,
     [string]$CommandOptions,
@@ -9,7 +9,8 @@ param(
 
 begin
 {
-    if(-Not $NupkgWrench){
+    Write-Verbose $NupkgWrench
+    if(-Not $NupkgWrench -or $NupkgWrench -eq $null){
         $NupkgWrench = ".\exe\NupkgWrench.exe"
     }
     
