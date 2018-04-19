@@ -14,8 +14,8 @@
         "Build and release"
     ],
     "links": {
-        "support": "https://github.com/dschuermans/NupgkWrenchExtension",
-        "NupkgWrench": "https://github.com/emgarten/NupkgWrench"
+        "issues": { "uri": "https://github.com/dschuermans/NupgkWrenchExtension" },
+        "NupkgWrench": { "uri": "https://github.com/emgarten/NupkgWrench" }
     },
     "repository": {
         "type": "git",
@@ -24,9 +24,6 @@
     "content": {
         "details": {
             "path": "readme.md"
-        },
-        "license": {
-            "path": "https://opensource.org/licenses/MIT"
         }
     },
     "icons": {
