@@ -9,6 +9,10 @@ param(
 
 begin
 {
+    if(-Not $NupkgWrench){
+        $NupkgWrench = ".\exe\NupkgWrench.exe"
+    }
+    
     Write-Host "# Settings:"
     Write-Host "    NupkgWrench: $NupkgWrench"
     Write-Host "    Command: $Command"

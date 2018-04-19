@@ -2,7 +2,7 @@
     "manifestVersion": 1,
     "id": "NupkgWrenchExtension",
     "name": "NupkgWrench",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "publisher": "dschuermans",
     "targets": [
         {

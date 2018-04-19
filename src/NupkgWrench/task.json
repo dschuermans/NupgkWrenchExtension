@@ -12,7 +12,7 @@
     "version": {
         "Major": 0,
         "Minor": 0,
-        "Patch": 4
+        "Patch": 5
     },
     "instanceNameFormat": "NupkgWrench $(Command) $(SubCommand)",
     "inputs": [
@@ -21,7 +21,7 @@
             "type": "filepath",
             "label": "NupkgWrench executable",
             "required": true,
-            "helpMarkDown": "The full path to the NupkgWrench executable. Can be obtained from NuGet by running command 'nuget install NupkgWrench'"
+            "helpMarkDown": "The full path to the NupkgWrench executable. Leave empty if you want to use the version included with this task (v1.1.0)"
         },
         {
             "name": "Command",
