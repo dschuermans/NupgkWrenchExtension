@@ -1,6 +1,6 @@
 [CmdletBinding()]
 param(
-    [string]$NupkgWrench = $null,
+    [string]$NupkgWrench,
     [string]$Command,
     [string]$CommandArguments,
     [string]$CommandOptions,
@@ -9,8 +9,10 @@ param(
 
 begin
 {
-    Write-Verbose $NupkgWrench
-    if(-Not $NupkgWrench -or $NupkgWrench -eq $null){
+    Write-Verbose "Provided value for executable: $NupkgWrench"
+
+    if(-Not($NupkgWrench.EndsWith(".exe")) -or $NupkgWrench -eq $(env:BUILD_SOURCESDIRECTORY)){
+        Write-Verbose "Resorting to using included NupkgWrench executable."
         $NupkgWrench = ".\exe\NupkgWrench.exe"
     }
     

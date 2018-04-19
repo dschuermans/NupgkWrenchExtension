@@ -9,10 +9,26 @@
         "Build"
     ],
     "author": "Dirk Schuermans",
+    "links": {
+        "support": "https://github.com/dschuermans/NupgkWrenchExtension",
+        "NupkgWrench": "https://github.com/emgarten/NupkgWrench"
+    },
+    "repository": {
+        "type": "git",
+        "uri": "https://github.com/dschuermans/NupgkWrenchExtension"
+    },
+    "content": {
+        "details": {
+            "path": "readme.md"
+        },
+        "license": {
+            "path": "https://opensource.org/licenses/MIT"
+        }
+    },
     "version": {
         "Major": 0,
         "Minor": 0,
-        "Patch": 7
+        "Patch": 10
     },
     "instanceNameFormat": "NupkgWrench $(Command) $(SubCommand)",
     "inputs": [
