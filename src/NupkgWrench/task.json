@@ -6,13 +6,14 @@
     "helpMarkDown": "",
     "category": "Utility",
     "visibility": [
-        "Build"
+        "Build",
+        "Release"
     ],
     "author": "Dirk Schuermans",
     "version": {
         "Major": 0,
         "Minor": 0,
-        "Patch": 11
+        "Patch": 12
     },
     "instanceNameFormat": "NupkgWrench $(Command) $(SubCommand)",
     "inputs": [

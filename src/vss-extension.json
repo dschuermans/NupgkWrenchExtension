@@ -2,7 +2,7 @@
     "manifestVersion": 1,
     "id": "NupkgWrenchExtension",
     "name": "NupkgWrench",
-    "version": "0.0.11",
+    "version": "0.0.12",
     "publisher": "dschuermans",
     "targets": [
         {
@@ -14,8 +14,7 @@
         "Build and release"
     ],
     "links": {
-        "issues": { "uri": "https://github.com/dschuermans/NupgkWrenchExtension" },
-        "NupkgWrench": { "uri": "https://github.com/emgarten/NupkgWrench" }
+        "support": { "uri": "https://github.com/dschuermans/NupgkWrenchExtension/issues" }
     },
     "repository": {
         "type": "git",
