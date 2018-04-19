@@ -1,0 +1,36 @@
+{
+    "manifestVersion": 1,
+    "id": "NupkgWrenchExtension",
+    "name": "NupkgWrench",
+    "version": "0.0.4",
+    "publisher": "dschuermans",
+    "targets": [
+        {
+            "id": "Microsoft.VisualStudio.Services"
+        }
+    ],    
+    "description": "Allows usage of NupkgWrench in your build and release tasks",
+    "categories": [
+        "Build and release"
+    ],
+    "icons": {
+        "default": "nupkgwrench.png"        
+    },
+    "files": [
+        {
+            "path": "NupkgWrench"
+        }
+    ],
+    "contributions": [
+        {
+            "id": "NupkgWrench",
+            "type": "ms.vss-distributed-task.task",
+            "targets": [
+                "ms.vss-distributed-task.tasks"
+            ],
+            "properties": {
+                "name": "NupkgWrench"
+            }
+        }
+    ]
+}
